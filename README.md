@@ -8,14 +8,9 @@
 ## 🎬 Demo Video
 
 > 📽️ **Watch the full working demo of the Courier Tracking System below:**
-https://github.com/user-attachments/assets/"C:\Users\THARUN\OneDrive\Videos\CTS Demo Live.mp4"
+https://github.com/user-attachments/assets/"C:\Users\THARUN\Downloads\Courier-tracking-system.mp4"
 
 
-
-
-> ⬆️ **How to get your video link:** Go to your repo README → click Edit ✏️ → drag and drop your `CTS_Demo_Live.mp4` file into the editor → GitHub will auto-upload and replace the link above with the real URL → then commit.
-
----
 
 # Live Demo
 🚧 Project runs locally on Apache Tomcat server
