@@ -1,152 +1,203 @@
-# 🚚 Courier Tracking System (CTS)
+<div align="center">
 
-![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple)
-![MySQL](https://img.shields.io/badge/MySQL-Database-orange)
-![Status](https://img.shields.io/badge/Project-Completed-success)
+# 🚚 Courier Tracking System
 
+> A full-stack web application for **real-time parcel tracking** and seamless admin management — built with Django, Bootstrap 5, and MySQL.
 
-# 🌐 Live Demo
+<br>
 
-🎥 **Project Demo Video**
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Django](https://img.shields.io/badge/Django-Framework-092E20?style=for-the-badge&logo=django&logoColor=white)](https://djangoproject.com)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com)
+[![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://mysql.com)
+[![Status](https://img.shields.io/badge/Status-Completed-22c55e?style=for-the-badge)](#)
 
-[▶️ Click Here](https://github.com/user-attachments/assets/9db8a6f4-582b-41e7-ab63-4cb5861fa05b)
+<br>
 
+[🎥 View Demo](#demo) · [🚀 Quick Start](#quick-start) · [☁ Deploy to Cloud](#deployment) · [📸 Screenshots](#screenshots)
 
-
-## Run Web-Browser
-
-🚧 Project runs locally on Apache Tomcat server
-
- **Localhost**  http://localhost:8081/CTS/
-
-You can deploy it on cloud later (I can help you do that)
-
-## 📌 Overview
-
-The **Courier Tracking System (CTS)** is a web-based application designed to streamline courier management and parcel tracking. The system allows customers to track their shipments in real time using a unique tracking number while administrators can manage courier records, update delivery statuses, and monitor shipment activities efficiently.
+</div>
 
 ---
 
-## 🎯 Objectives
+## 📌 Overview
 
-✅ Automate courier management processes
-✅ Provide real-time parcel tracking
-✅ Reduce manual record maintenance
-✅ Improve customer satisfaction through transparent tracking
-✅ Enable efficient administration of courier operations
+The **Courier Tracking System (CTS)** streamlines courier management end-to-end. Customers track shipments in real time using a unique tracking number, while administrators manage records, update delivery statuses, and monitor all shipment activity from a central dashboard.
 
 ---
 
 ## ✨ Features
 
-### 👤 User Module
+<table>
+<tr>
+<td width="33%">
 
-* 🔐 User Registration
-* 🔑 User Login & Logout
-* 📦 Track Courier Using Tracking ID
-* 📋 View Shipment Status
-* 👨‍💼 Update User Profile
+### 👤 User Module
+- 🔐 Register & secure login
+- 📦 Track courier via tracking ID
+- 📋 View real-time shipment status
+- 👤 Update personal profile
+- 🚪 Logout
+
+</td>
+<td width="33%">
 
 ### 🛠️ Admin Module
+- 🔒 Secure admin dashboard
+- ➕ Add new courier records
+- 🔄 Update courier status
+- 👥 Manage all users
+- 📊 View reports & delete records
 
-* 🔒 Secure Admin Login
-* ➕ Add New Courier Details
-* 🔄 Update Courier Status
-* 👥 Manage Users
-* 📊 View Courier Reports
-* ❌ Delete Courier Records
+</td>
+<td width="33%">
 
-### 🚚 Tracking Module
+### 📍 Tracking Module
+- 🎫 Unique tracking ID generation
+- ⚡ Real-time status updates
+- ✅ Delivery confirmation
+- 📜 Full tracking history
 
-* 🎫 Unique Tracking Number Generation
-* 📍 Real-Time Status Updates
-* ✅ Delivery Confirmation
-* 📜 Tracking History
-
------------------------------------------------------------------------------------------
-
-## 🛠️ Technology Stack
-
-### 🎨 Frontend
-
-* HTML5
-* CSS3
-* Bootstrap 5
-* JavaScript
-
-### ⚙️ Backend
-
-* Python
-* Django Framework
-
-### 🗄️ Database
-
-* MySQL / SQLite
-
-### 💻 Development Tools
-
-* Visual Studio Code
-* Git
-* GitHub
+</td>
+</tr>
+</table>
 
 ---
 
 ## 🔄 System Workflow
 
-1️⃣ User registers and logs in.
-2️⃣ Admin creates courier records.
-3️⃣ System generates a unique tracking ID.
-4️⃣ User enters tracking ID to view shipment status.
-5️⃣ Admin updates courier progress during transit.
-6️⃣ User receives updated tracking information until delivery.
+```
+ ┌────────────────────────────────────────────────────────────────┐
+ │                                                                │
+ │  1. User registers & logs in                                   │
+ │         │                                                      │
+ │         ▼                                                      │
+ │  2. Admin creates courier record (sender, receiver, details)   │
+ │         │                                                      │
+ │         ▼                                                      │
+ │  3. System generates a unique Tracking ID 🎫                   │
+ │         │                                                      │
+ │         ▼                                                      │
+ │  4. User enters Tracking ID → views current shipment status    │
+ │         │                                                      │
+ │         ▼                                                      │
+ │  5. Admin updates transit progress in real time                │
+ │         │                                                      │
+ │         ▼                                                      │
+ │  6. User receives delivery confirmation ✅                      │
+ │                                                                │
+ └────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## 📸 Project Screenshots
+## 🛠️ Tech Stack
 
-### Login Page
-<img width="1830" height="900" alt="image" src="https://github.com/user-attachments/assets/de7f9ef8-b003-4205-9f42-f1f7767a5c82" />
+| Layer | Technology | Purpose |
+|---|---|---|
+| **Frontend** | HTML5, CSS3, Bootstrap 5, JavaScript | UI & responsiveness |
+| **Backend** | Python, Django | Business logic & routing |
+| **Database** | MySQL / SQLite | Data persistence |
+| **Tools** | VS Code, Git, GitHub | Development & version control |
+| **Server** | Apache Tomcat (local) | Local deployment |
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- Python 3.x
+- pip
+- MySQL (or SQLite for quick setup)
+- Git
+
+### Installation
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/courier-tracking-system.git
+cd courier-tracking-system
+
+# 2. Create and activate a virtual environment
+python -m venv venv
+source venv/bin/activate      # macOS/Linux
+venv\Scripts\activate         # Windows
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Configure your database in settings.py
+#    (MySQL or SQLite)
+
+# 5. Run migrations
+python manage.py makemigrations
+python manage.py migrate
+
+# 6. Create a superuser (admin)
+python manage.py createsuperuser
+
+# 7. Start the development server
+python manage.py runserver
+```
+
+Open your browser at `http://127.0.0.1:8000/`
+
+---
+
+## 📸 Screenshots
+
+### 🔐 Login Page
+![Login Page](https://github.com/user-attachments/assets/de7f9ef8-b003-4205-9f42-f1f7767a5c82)
 
 ### 🏠 Home Page
-<img width="1853" height="862" alt="image" src="https://github.com/user-attachments/assets/d764c84a-57b6-46ec-adb6-180fa2119ce8" />
+![Home Page](https://github.com/user-attachments/assets/d764c84a-57b6-46ec-adb6-180fa2119ce8)
 
 ### 🔍 Tracking Result
-<img width="1872" height="960" alt="image" src="https://github.com/user-attachments/assets/2fd59fcc-d216-44a7-9c53-b7c3d63981d1" />
-
+![Tracking Result](https://github.com/user-attachments/assets/2fd59fcc-d216-44a7-9c53-b7c3d63981d1)
 
 ### 🛠️ Admin Dashboard
-<img width="1722" height="953" alt="image" src="https://github.com/user-attachments/assets/2a87d7b6-022b-4de3-89e4-d32dc8eea277" />
+![Admin Dashboard](https://github.com/user-attachments/assets/2a87d7b6-022b-4de3-89e4-d32dc8eea277)
 
-------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 ## 🌟 Advantages
 
-* 🚀 Easy to use interface
-* ⚡ Fast courier tracking
-* 🔐 Secure authentication
-* 📄 Reduced paperwork
-* 📊 Efficient record management
-
---------------------------------------------------------------------------------------------------------------------------------------
-
-## 🔮 Future Enhancements
-
-* 📧 Email Notifications
-* 📱 SMS Alerts
-* 💳 Online Payment Gateway
-* 🌍 GPS-Based Live Tracking
-* 📲 Mobile Application Support
-
-------------------------------------------------------------------------------------------------------------------------------------------
-
-## 🎓 Conclusion
-
-The Courier Tracking System provides an efficient solution for managing courier operations and tracking shipments. The project demonstrates the use of modern web technologies and database management concepts to build a practical real-world application.
+| | |
+|---|---|
+| 🚀 **Easy to use** | Clean, intuitive interface for all users |
+| ⚡ **Fast tracking** | Real-time status updates with zero delay |
+| 🔐 **Secure** | Session-based authentication & admin protection |
+| 📄 **Paperless** | Fully digital — no manual record keeping |
+| 📊 **Insightful** | Admin reports for full operational visibility |
 
 ---
 
-## 👨‍🎓 Author
+## 🔮 Roadmap
+
+- [ ] 📧 Email notifications on status change
+- [ ] 📱 SMS alerts for delivery updates
+- [ ] 💳 Online payment gateway integration
+- [ ] 🌍 GPS-based live tracking
+- [ ] 📲 Mobile application (Android & iOS)
+- [ ] ☁️ Cloud deployment (AWS / GCP / Heroku)
+
+---
+
+## 🎓 Conclusion
+
+The Courier Tracking System demonstrates the effective use of modern web technologies — Django, Bootstrap 5, and MySQL — to solve a real-world logistics problem. It provides a clean, secure, and scalable foundation that can be extended with GPS tracking, mobile apps, and payment integrations.
+
+---
+
+## 👨‍💻 Author
+
+<div align="center">
 
 **Mudavath Tharun**
 
-⭐ If you like this project, don't forget to give it a Star on GitHub!
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/your-username)
+
+*If this project helped you or you found it interesting, please consider giving it a ⭐ — it helps others discover it!*
+
+</div>
