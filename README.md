@@ -4,11 +4,20 @@
 ![MySQL](https://img.shields.io/badge/MySQL-Database-orange)
 ![Status](https://img.shields.io/badge/Project-Completed-success)
 
-# Live Demo
+
+# 🌐 Live Demo
+
+🎥 **Project Demo Video**
+
+[▶️ Click Here](https://github.com/user-attachments/assets/9db8a6f4-582b-41e7-ab63-4cb5861fa05b)
+
+
+
+## Run Web-Browser
 
 🚧 Project runs locally on Apache Tomcat server
 
-http://localhost:8081/CTS/
+ **Localhost**  http://localhost:8081/CTS/
 
 You can deploy it on cloud later (I can help you do that)
 
@@ -95,15 +104,18 @@ The **Courier Tracking System (CTS)** is a web-based application designed to str
 
 ## 📸 Project Screenshots
 
+### Login Page
+<img width="1830" height="900" alt="image" src="https://github.com/user-attachments/assets/de7f9ef8-b003-4205-9f42-f1f7767a5c82" />
+
 ### 🏠 Home Page
+<img width="1853" height="862" alt="image" src="https://github.com/user-attachments/assets/d764c84a-57b6-46ec-adb6-180fa2119ce8" />
 
-![Home Page] <img width="1853" height="862" alt="home-dashboard" src="https://github.com/user-attachments/assets/1f50f8f1-0cbf-48be-8af4-8d52a550a894" />
+### 🔍 Tracking Result
+<img width="1872" height="960" alt="image" src="https://github.com/user-attachments/assets/2fd59fcc-d216-44a7-9c53-b7c3d63981d1" />
 
-![Tracking Page] <img width="1872" height="960" alt="tracking-result" src="https://github.com/user-attachments/assets/11d96e29-944c-4b12-985b-dfdffe2becf3" />
 
 ### 🛠️ Admin Dashboard
-
-![Admin Dashboard] <img width="1722" height="953" alt="admin-dashboard" src="https://github.com/user-attachments/assets/d46a82a8-a008-419a-bc2f-2019e168ca87" />
+<img width="1722" height="953" alt="image" src="https://github.com/user-attachments/assets/2a87d7b6-022b-4de3-89e4-d32dc8eea277" />
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
